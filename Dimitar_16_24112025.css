@@ -1,0 +1,40 @@
+#videoFondo {
+    position: fixed;
+    min-height: 100%;
+    min-width: 100%;
+}
+
+.imagenFondo {
+    position: fixed;
+    min-height: 100%;
+    min-width: 100%
+}
+
+body {
+    height: 100rem;
+}
+
+header,
+footer {
+    background-color: beige;
+    padding: 2rem;
+    opacity: 0.7;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    top: 0rem;
+
+}
+
+footer {
+    position: fixed;
+    width: 100%;
+    bottom: 0rem;
+}
+
+h1 {
+    text-align: center;
+    border: dashed;
+}

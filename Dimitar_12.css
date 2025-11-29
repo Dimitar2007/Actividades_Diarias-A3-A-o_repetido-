@@ -1,0 +1,71 @@
+body {
+    background-image: linear-gradient(to right, rgb(49, 128, 49), white);
+    cursor: url('./Cursores/MiCursor.cur'), auto;
+}
+
+.p1 {
+    background-image: linear-gradient(to left, rgb(68, 68, 255), white, rgb(29, 126, 29));
+    text-shadow: 0.2rem 0.2rem 0.4rem black;
+    cursor: crosshair;
+    margin: 3rem;
+}
+
+.p2 {
+    background-image: radial-gradient(orange 50%, white);
+    text-shadow: 0.1rem 0.3rem 0.4rem black;
+    cursor: crosshair;
+    margin: 3rem;
+}
+
+.p3 {
+    background-image: radial-gradient(yellow, orange, red);
+    cursor: crosshair;
+    margin: 3rem;
+    box-shadow: 1rem 0.5rem 0.2rem rgb(0, 100, 249);
+}
+
+.p4 {
+    border: 0.1rem solid black;
+    margin: 6rem;
+    background-color: blueviolet;
+    height: 15rem;
+    box-shadow: -1rem 1rem 0.5rem rgb(0, 228, 249);
+    text-shadow: 0.2rem 0.2rem 0.4rem red;
+    color: white;
+    cursor: zoom-in;
+}
+
+header {
+    border: solid black 0.1rem;
+    border-radius: 2.5rem;
+    padding: 2rem;
+    text-align: center;
+    background-image: linear-gradient(to right, rgb(1, 102, 1), white);
+}
+
+
+p {
+    border: 0.1rem black solid;
+    border-radius: 2rem;
+    padding: 2rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+
+.sobre-nosotros {
+    background-image: linear-gradient(to left, transparent 50%, #0d03c0 50%, #0358c0 100%), url(./Imagenes/LBPhase2.png);
+    background-size: 100%, 50%;
+    /* el primer tamaño es para el gradiente y el 2º es para la imagen */
+    padding: 8rem 0;
+    background-repeat: no-repeat;
+    background-position: right center;
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.sobre-nosotros h2 {
+    grid-column: 0/3;
+    text-align: center;
+    color: white;
+}

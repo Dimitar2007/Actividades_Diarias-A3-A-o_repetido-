@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: rgb(194, 0, 0);
+}
+
+h1 {
+    text-align: center;
+    text-shadow: 0.1rem 0.1rem 0.1rem black;
+    color: brown;
+    margin: auto;
+    margin-bottom: 2rem;
+}
+
+table {
+    margin-top: 5rem;
+    caption-side: bottom;
+    margin: auto;
+    border-collapse: collapse;
+    background-image: linear-gradient(to left, rgb(27, 27, 255), green);
+    box-shadow: 0.5rem 0.5rem 0.5rem gray;
+    width: 80%;
+    margin: auto;
+}
+
+th {
+    background-color: black;
+    color: white;
+}
+
+th img {
+    height: 30rem;
+}
+
+caption {
+    padding-top: 2rem;
+    font-style: italic;
+    color: brown;
+}
+
+td,
+th {
+    border: 0.2rem solid black;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}

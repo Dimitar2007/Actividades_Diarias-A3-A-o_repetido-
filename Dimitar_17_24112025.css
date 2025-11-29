@@ -1,0 +1,49 @@
+* {
+    margin: 10px;
+    box-sizing: border-box;
+    border-radius: 25px;
+}
+
+*::selection {
+    background: red;
+}
+
+#titulo::before,
+#titulo::after {
+    content: "''";
+    margin: 0.5rem;
+    border: 0.1rem solid black;
+    border-radius: 1rem;
+}
+
+#titulo2 {
+    color: white;
+    text-transform: lowercase;
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+main {
+    background-image: linear-gradient(to bottom, rgb(32, 207, 46), rgb(21, 126, 30));
+}
+
+article {
+    margin-top: 5rem;
+    font-size: 1.5rem;
+    text-align: justify;
+    column-count: 3;
+    column-gap: 2rem;
+    column-rule: 0.3rem solid brown;
+}
+
+p::first-letter {
+    font-size: 3rem;
+    color: brown;
+}
+
+p::first-line {
+    color: green;
+}

@@ -1,0 +1,147 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+h1 {
+    text-align: center;
+}
+
+nav a {
+    flex-grow: 1;
+}
+
+
+img {
+    float: left;
+    width: 70%;
+    border: 5px double;
+}
+
+.menuH {
+    overflow: hidden;
+    border: 5px double;
+}
+
+.menuH a {
+    background-color: black;
+    color: white;
+    /*El texto decoration es para quitarle cualquier decoracion al texto,como por ejemplo en este caso con los hiperenlaces*/
+    text-decoration: none;
+    float: left;
+    width: 25%;
+    text-align: center;
+    padding: 20px;
+}
+
+
+
+/*El hover se utiliza en este caso para que cuando pongas el raton por encima,el texto y fondo cambie de color*/
+.menuH a:hover {
+    background-color: white;
+    color: black;
+}
+
+.menuV {
+    float: left;
+    width: 25%;
+    border: 5px double;
+}
+
+.menuV a {
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    display: block;
+}
+
+.menuV a:hover {
+    background-color: white;
+    color: black;
+}
+
+
+.menuFlex1 {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 40%;
+    margin: 20px auto 20px 0px;
+    clear: both;
+}
+
+.menuFlex1 a {
+    text-decoration: none;
+    background-color: beige;
+    color: black;
+    padding: 20px;
+    flex-grow: 1;
+    text-align: center;
+}
+
+.menuFlex1 a:hover {
+    background-color: rgb(223, 223, 200);
+}
+
+.menuFlex2 {
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+    margin: 40px auto 40px auto;
+    text-decoration: none;
+    float: left;
+}
+
+.menuFlex2 a {
+    background-color: brown;
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    display: block;
+}
+
+.menuFlex2 a:hover {
+    background-color: black;
+}
+
+.menuGrid1 {
+    width: 80%;
+    margin: 20px auto 20px auto;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+.menuGrid1 a {
+    text-decoration: none;
+    background-color: beige;
+    color: black;
+    padding: 20px;
+    flex-grow: 1;
+    text-align: center;
+}
+
+.menuGrid1 a:hover {
+    background-color: rgb(223, 223, 200);
+}
+
+
+.menuGrid2 {
+    width: 40%;
+    margin: auto;
+    grid-template-columns: repeat(5, 1fr);
+    display: grid;
+
+}
+
+.menuGrid2 a {
+    background-color: blueviolet;
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    display: block;
+}
+
+.menuGrid2 a:hover {
+    background-color: black;
+}

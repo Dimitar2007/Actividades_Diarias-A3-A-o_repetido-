@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+h1 {
+    text-align: center;
+}
+
+section {
+    width: 70%;
+    margin: auto;
+    border: dashed;
+    padding: 1.5rem;
+}
+
+.listaDesordenada {
+    background-color: bisque;
+}
+
+.listaOrdenada {
+    background-color: cornflowerblue;
+}
+
+.listaDefinicion {
+    background-color: green;
+}
+
+#componente1 {
+    background-image: url(./Imagenes/CPU.png);
+    background-size: 2.5rem;
+    background-repeat: no-repeat;
+    padding: 0rem 0rem 0rem 2.5rem;
+}
+
+#componente2 {
+    background-image: url(./Imagenes/RTX4090.png);
+    background-size: 2.5rem;
+    background-repeat: no-repeat;
+    padding: 0rem 0rem 0rem 2.5rem;
+}
+
+#componente3 {
+    background-image: url(./Imagenes/Hollow_knight.png);
+    background-size: 2.5rem;
+    background-repeat: no-repeat;
+    padding: 0rem 0rem 0rem 2.5rem;
+}
+
+#componente4 {
+    background-image: url(./Imagenes/Disipador.png);
+    background-size: 2.5rem;
+    background-repeat: no-repeat;
+    padding: 0rem 0rem 0rem 2.5rem;
+}
+
+#componente5 {
+    background-image: url(./Imagenes/Placa_base.png);
+    background-size: 2.5rem;
+    background-repeat: no-repeat;
+    padding: 0rem 0rem 0rem 2.5rem;
+}
+
+#componente6 {
+    background-image: url(./Imagenes/caja_pc.png);
+    background-size: 2.5rem;
+    background-repeat: no-repeat;
+    padding: 0rem 0rem 0rem 2.5rem;
+}
+
+#componente7 {
+    background-image: url(./Imagenes/puerro.png);
+    background-size: 2.5rem;
+    background-repeat: no-repeat;
+    padding: 0rem 0rem 0rem 2.5rem;
+}
+
+#componente8 {
+    background-image: url(./Imagenes/monitor.png);
+    background-size: 2.5rem;
+    background-repeat: no-repeat;
+    padding: 0rem 0rem 0rem 2.5rem;
+}
+
+#componente9 {
+    background-image: url(./Imagenes/fuente_de_poder.png);
+    background-size: 2.5rem;
+    background-repeat: no-repeat;
+    padding: 0rem 0rem 0rem 2.5rem;
+}
+
+#componente10 {
+    background-image: url(./Imagenes/teclado.png);
+    background-size: 2.5rem;
+    background-repeat: no-repeat;
+    padding: 0rem 0rem 0rem 2.5rem;
+}
+
+ol ol {
+    list-style-type: lower-alpha;
+}

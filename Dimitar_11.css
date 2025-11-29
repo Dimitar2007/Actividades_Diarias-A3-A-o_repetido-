@@ -1,0 +1,36 @@
+/*
+Lo que hay que colocar para las fuentes de texto
+
+-Orbitron:font-family: "Orbitron", sans-serif;
+-Shadows into light Two:font-family: "Shadows Into Light Two", cursive;
+-Google Sans Code:font-family: "Google Sans Code", monospace;
+-Tangerine:font-family: "Tangerine"
+}*/
+
+
+h1 {
+    text-align: center;
+    font-size: 5rem;
+}
+
+h3 {
+    text-align: center;
+}
+
+.parte1 {
+    font-family: "Google Sans Code", monospace;
+
+}
+
+.parte2 {
+
+    font-family: "Shadows Into Light Two", cursive;
+}
+
+.parte3 {
+    font-family: "Orbitron", sans-serif;
+}
+
+.parte4 {
+    font-family: "Tangerine";
+}
